@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Claculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="cal">
+    <div id="calu">
+        <input type="text" id="number" readonly> 
+        <div id="oper">
+            <button class="bgColor" onclick="toDisplay('+')">+</button>
+            <button onclick="toDisplay('7')">7</button>
+            <button onclick="toDisplay('8')">8</button>
+            <button onclick="toDisplay('9')">9</button>
+            <button class="bgColor" onclick="toDisplay('-')">-</button>
+            <button onclick="toDisplay('4')">4</button>
+            <button onclick="toDisplay('5')">5</button>
+            <button onclick="toDisplay('6')">6</button>
+            <button class="bgColor" onclick="toDisplay('*')">*</button>
+            <button onclick="toDisplay('1')">1</button>
+            <button onclick="toDisplay('2')">2</button>
+            <button onclick="toDisplay('3')">3</button>
+            <button class="bgColor" onclick="toDisplay('/')">/</button>
+            <button onclick="toDisplay('0')">0</button>
+            <button onclick="toDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button class="bgColor" onclick="displayClear()">C</button>
+        </div>
+
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
