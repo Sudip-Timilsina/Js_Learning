@@ -146,8 +146,8 @@ JavaScript (ES6+)
 ## Contributing
 Contributions are welcome! If you would like to add a new feature or improve existing projects, feel free to open an issue or submit a pull request. Please make sure your contributions follow the standard guidelines.
 <ul>
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.</ul>
+<li> Fork the repository.</li>
+<li>Create a new branch (git checkout -b feature-branch).</li>
+<li>Make your changes and commit (git commit -m 'Add some feature').
+<li>Push to the branch (git push origin feature-branch).</li>
+<li>Open a pull request.</li></ul>
